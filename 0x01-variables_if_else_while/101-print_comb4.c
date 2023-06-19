@@ -7,7 +7,7 @@ int main(void)
 {
 	int ones = '0';
 	int tens = '0';
-	int hundreds = '0''
+	int hundreds = '0';
 
 	for (hundreds = '0'; hundreds <= '9'; hundreds++)
 	{
@@ -23,7 +23,7 @@ int main(void)
 					putchar(ones);
 					if (!(ones == '9' && hundreds == '7' && tens == '8'))
 					{
-						putchar(', ');
+						putchar(',');
 						putchar(' ');
 					}
 				}
