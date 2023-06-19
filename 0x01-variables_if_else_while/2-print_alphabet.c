@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - Enter
  * Return: Everytime 0 (Successful)
