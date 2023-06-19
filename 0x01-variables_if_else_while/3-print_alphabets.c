@@ -3,20 +3,24 @@
  * main - Enter
  * Return: Everytime 0 (Successful)
  */
-
 int main(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 'a'; ch <= 'z'; ch++) {
-		putchar(ch);
-	}
-	
-	for (ch = 'A'; ch <= 'Z'; ch++) {
-	putchar (ch);
-	}
+	char d;
 
-	putchar('\n')
-
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'Z') {
+			putchar(d);
+			d++;
+		}
+	putchar('\n');
 	return (0);
 }
