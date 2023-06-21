@@ -9,22 +9,22 @@ int main(void)
 
 {
 
-	int b = 0;
-	long c = 1, d = 2;
+	int i = 0;
+	long j = 1, k = 2;
 
-	while (b < 50)
+	while (i < 50)
 	{
-	if (b == 0)
-	printf("%ld", c);
-	else if (b == 1)
-	printf(", %ld", d);
+	if (i == 0)
+	printf("%ld", j);
+	else if (i == 1)
+	printf(", %ld", k);
 	else
 	{
-	d += c;
-	b = c - d;
-	printf(", %ld", d);
+	k += j;
+	j = k - j;
+	printf(", %ld", k);
 	}
-	++b;
+	++i;
 	}
 	printf("\n");
 	return (0);
