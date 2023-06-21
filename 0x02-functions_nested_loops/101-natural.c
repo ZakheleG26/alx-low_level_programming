@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the summ of all multiples of 3 or 5 below 1024 and exclude 1024
+ * main - Prints the summ of all multiples of 3 or 5 below 1024 exclude 1024
  * Return: Everytime (Successful)
  */
 
