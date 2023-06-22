@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * mul - Multiply two integers
- * @x: The first to be multiplied
- * @y: The second number to be multiplied with first number
+ * mul - Multiplies two integers
+ * @x: The first to multiply
+ * @y: The second number to multiply with first number
  * Return: The result of the multiplication between param x and y param
  */
 
