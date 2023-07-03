@@ -8,7 +8,7 @@
  * Return: Everytime 0 (Successful)
  */
 
-char *strchr(char *s, char c)
+char *_strchr(char *s, char c)
 
 {
 	int i;
