@@ -54,16 +54,6 @@ void errors(void)
 }
 
 /**
- * _putchar - writes a character to stdout
- * @c: character to print
- */
-
-void _putchar(char c)
-{
-	putchar(c);
-}
-
-/**
  * main - multiplies two positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
