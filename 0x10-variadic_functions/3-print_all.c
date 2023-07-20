@@ -10,10 +10,9 @@
 void print_all(const char * const format, ...)
 
 {
-
 	int i = 0;
 	char *str;
- 	const char *sep = "";
+const char *sep = "";
 
 	va_list list;
 
@@ -51,5 +50,4 @@ void print_all(const char * const format, ...)
 
 	printf("\n");
 	va_end(list);
-
 }
